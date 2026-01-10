@@ -6,6 +6,36 @@ const Home: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
+
+            {/* Title Page Section */}
+      <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-brand-bg via-black/95 to-brand-bg relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <div className="absolute inset-0 bg-grid-pattern"></div>
+        </div>
+        <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
+          <h1 className="text-7xl md:text-8xl font-bold text-white mb-8 tracking-tight">
+            Author Group
+          </h1>
+          <p className="text-2xl md:text-3xl text-brand-accent mb-8 font-light">
+            POWERED BY FIVE STAR
+          </p>
+          <div className="h-px w-32 bg-brand-accent mx-auto mb-12"></div>
+          <p className="text-xl text-gray-300 mb-16 leading-relaxed">
+            Transforming Real Estate Through Data-Driven Strategy<br/>
+            and Community-Focused Innovation
+          </p>
+          <button 
+            onClick={() => window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })}
+            className="group inline-flex items-center gap-3 px-8 py-4 bg-brand-accent/10 hover:bg-brand-accent/20 text-brand-accent border-2 border-brand-accent rounded-full font-bold transition-all duration-300 hover:scale-105"
+          >
+            Enter Platform
+            <svg className="w-5 h-5 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+            </svg>
+          </button>
+        </div>
+      </section>
+
       <section className="relative h-[85vh] flex items-center justify-center overflow-hidden">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
