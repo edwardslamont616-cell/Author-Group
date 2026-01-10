@@ -3,12 +3,14 @@ export interface Property {
   address: string;
   city: string;
   state: string;
+    neighborhood: string;
   zip: string;
   price: number;
   originalPrice?: number;
   bedrooms: number;
   bathrooms: number;
   sqft: number;
+    propertyType: 'Single Family' | 'Condo' | 'Townhouse' | 'Multi-Family';
   garage: number;
   description: string;
   features: string[];
