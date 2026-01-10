@@ -276,8 +276,8 @@ Author-Group/
 
 **Author Group LLC**  
 Angelique Edwards - Real Estate Leader  
-📧 angelique@authorgroup.com  
-📱 (616) 555-0123  
+📧 angeliquedwards616@gmail.com  
+📱 (616) 432-0126  
 🏢 Five Star Real Estate Leaders
 
 ## License
