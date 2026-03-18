@@ -1,4 +1,4 @@
-# Author Group Real Estate - Multi-Listing Platform
+# AME Group – Multi-Listing Platform
 
 ## Project Overview
 A modern, AI-powered real estate platform for Author Group LLC showcasing premium properties across Grand Rapids, Michigan. This platform transforms a single-listing showcase into a comprehensive multi-listing real estate website with advanced search, filtering, and AI-powered customer support.
